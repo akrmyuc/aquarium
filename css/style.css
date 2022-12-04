@@ -50,6 +50,15 @@ header a:hover {
 }
 
 /* about */
+#about h3 {
+  margin-bottom: 8px;
+}
+#about h4 {
+  margin-bottom: 8px;
+}
+#about div + div{
+  margin-top: 24px;
+}
 
 /* news */
 #news dl {
