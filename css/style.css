@@ -12,6 +12,9 @@ a {
 li {
   list-style: none;
 }
+img {
+  max-width: 100%;
+}
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
@@ -79,6 +82,16 @@ header a:hover {
 }
 
 /* photos */
+#photos ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#photos li {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
 
 /* inquiry */
 #inquiry form{
