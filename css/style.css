@@ -1,0 +1,58 @@
+/* common */
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+body {
+  color: #474747;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.sec-title {
+  margin: 40px 0 20px 0;
+  color: #0F66C8;
+  text-align: center;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+header ul {
+  display: flex;
+}
+header li {
+  margin-left: 30px;
+}
+header a {
+  color: #0D3388;
+}
+header a:hover {
+  color: #6F85BA;
+}
+
+/* mainvisual */
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* about */
+
+/* news */
+
+/* photos */
+
+/* inquiry */
