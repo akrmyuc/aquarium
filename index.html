@@ -5,19 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>にこにこ水族館</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    s
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>にこにこ水族館</h1>
+    <header class="wrapper">
+      <h1><a href="index.html">にこにこ水族館</a></h1>
       <nav>
         <ul>
-          <li><a href="#">営業時間・料金</a></li>
-          <li><a href="#">展示・館内紹介</a></li>
-          <li><a href="#">交通アクセス</a></li>
-          <li><a href="#">お知らせ・イベント情報</a></li>
+          <li><a href="#about">営業時間・料金</a></li>
+          <li><a href="#news">お知らせ・イベント情報</a></li>
+          <li><a href="#photos">展示・館内紹介</a></li>
+          <li><a href="#inquiry">お問い合わせ</a></li>
         </ul>
       </nav>
     </header>
+    <main>
+      <div id="mainvisual">
+        <img src="img/mainvisual.jpg" alt="メインビジュアル" />
+      </div>
+      <section class="wrapper" id="about">
+        <h2>営業時間・料金</h2>
+        <h3>1月の営業時間</h3>
+        <h4>1日（日）～9日（月・祝）</h4>
+        <p>9：30～20：00（最終入館19：00）</p>
+        <h4>12日（木）～31日（火）</h4>
+        <p>【平　日】 10：00～20：00（最終入館19：00）</p>
+        <p>【土日祝】 9：30～20：00（最終入館19：00）</p>
+        <small>※ 以降の営業時間は決まり次第ご案内いたします</small><br />
+        <small>※ 上記期間中、営業時間を変更する可能性があります</small>
+        <h3>入館料金</h3>
+        <p>大人：2,400円</p>
+        <p>子供：1,200円</p>
+      </section>
+      <section class="wrapper" id="news">
+        <h2>お知らせ・イベント情報</h2>
+        <dl>
+          <dt>2022.XX.XX</dt>
+          <dd>入館料金改定のお知らせ</dd>
+          <dt>2022.XX.XX</dt>
+          <dd>バックヤードツアーを開催します！</dd>
+          <dt>2022.XX.XX</dt>
+          <dd>イルカの赤ちゃんが生まれました！</dd>
+        </dl>
+      </section>
+      <section class="wrapper" id="photos">
+        <h2>展示・館内紹介</h2>
+        <ul>
+          <li>写真1</li>
+          <li>写真2</li>
+          <li>写真3</li>
+          <li>写真4</li>
+          <li>写真5</li>
+          <li>写真6</li>
+        </ul>
+      </section>
+      <section class="wrapper" id="inquiry">
+        <h2>お問い合わせ</h2>
+        <form action="#" method="post">
+          <div>
+            <label for="name">お名前</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">メールアドレス</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div>
+            <label for="message">お問い合わせ内容</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button>送信</button>
+        </form>
+      </section>
+    </main>
+    <footer><small>© niconico aquarium</small></footer>
   </body>
 </html>
