@@ -52,7 +52,48 @@ header a:hover {
 /* about */
 
 /* news */
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #CCDFF4;
+  margin-bottom: 20px;
+}
+#news dt {
+  width: 20%;
+  border-bottom: solid 1px #CCDFF4;
+  padding: 15px;
+}
+#news dd {
+  width: 80%;
+  border-bottom: solid 1px #CCDFF4;
+  padding: 15px;
+}
 
 /* photos */
 
 /* inquiry */
+#inquiry form{
+  margin: 0 auto;
+}
+#inquiry input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #CCDFF4;
+  border-radius: 4px;
+}
+#inquiry textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #CCDFF4;
+  border-radius: 4px;
+}
+#inquiry button {
+  padding: 10px 16px;
+  border: 1px solid #0D3388;
+  background-color: #0D3388;
+  color: white;
+  border-radius: 4px;
+}
