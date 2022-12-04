@@ -119,3 +119,9 @@ header a:hover {
   color: white;
   border-radius: 4px;
 }
+
+/* footer */
+footer {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
